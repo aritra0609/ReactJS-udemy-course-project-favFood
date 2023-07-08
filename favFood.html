@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 1:Favourite Foods:Learning HTML</title>
+    <style>
+        #topbar{
+            background-color:  #779ecb;
+            padding: 24px;
+        }
+        .menu-item{
+            font-size: 24px;
+            padding: 10px;
+            font-weight: bolder;
+        }
+        #list-heading{
+            font-size: 20px;
+            padding-left: 24px; 
+        }
+        .food-list{
+            font-size: 20px;
+            padding: 30px;
+            line-height: 40px;
+        }
+        .food-img{
+            width: 500px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body style="margin: 0;background-color: #def3fd;">
+    <div id="topbar">
+        <span class="menu-item">Index</span>
+        <span class="menu-item">Food</span>
+        <span class="menu-item">About</span>
+    </div>
+    <h3 id="list-heading">Top 5 favourite foods:</h3>
+    <ul type="disc">
+        <li><a class="food-list" href="#biriyani">Biriyani</a></li>
+        <li><a class="food-list" href="#pizza">Pizza</a></li>
+        <li><a class="food-list" href="#lasagna">Lasagna</a></li>
+        <li><a class="food-list" href="#burger">Burger</a></li>
+        <li><a class="food-list" href="#caesarsalad">Caesar Salad</a></li>
+    </ul>
+    <div style="align-items: center;text-align: center;padding-top: 20px;">
+        <img id="biriyani" class="food-img" src="https://media-cdn.tripadvisor.com/media/photo-s/0d/ce/19/d2/img-20161121-202858-hdr.jpg" alt="Biriyani"/>
+        <p>Biriyani</p>
+    </div>
+    <div style="align-items: center;text-align: center;">
+        <img id="pizza" class="food-img" src="https://cdn.pixabay.com/photo/2017/12/09/08/18/pizza-3007395_1280.jpg" alt="Pizza"/>
+        <p>Pizza</p>
+    </div>
+    <div style="align-items: center;text-align: center;">
+        <img id="lasagna" class="food-img" src="https://static.toiimg.com/thumb/55369113.cms?width=1200&height=900" alt="Lasagna"/>
+        <p>Lasagna</p>
+    </div>
+    <div style="align-items: center;text-align: center;">
+        <img id="burger" class="food-img" src="https://c.ndtvimg.com/2022-06/gp4k2jro_burgers_625x300_20_June_22.jpg?im=FeatureCrop,algorithm=dnn,width=620,height=350?im=FaceCrop,algorithm=dnn,width=1200,height=886" alt="Burger"/>
+        <p>Burger</p>
+    </div>
+    <div style="align-items: center;text-align: center;">
+        <img id="caesarsalad" class="food-img" src="https://www.seriouseats.com/thmb/Fi_FEyVa3_-_uzfXh6OdLrzal2M=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/the-best-caesar-salad-recipe-06-40e70f549ba2489db09355abd62f79a9.jpg" alt="Caesar Salad"/>
+        <p>Caesar Salad</p>
+    </div>
+</body>
+</html>
